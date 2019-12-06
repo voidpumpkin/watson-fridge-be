@@ -5,7 +5,7 @@ const productSchema = new Schema({
     type: Number,
     required: true
   },
-  name: {
+  title: {
     type: String,
     required: true
   },
