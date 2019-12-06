@@ -2,7 +2,7 @@ const { Schema, model } = require("mongoose");
 
 const productSchema = new Schema({
   barcode: {
-    type: Number,
+    type: String,
     required: true
   },
   title: {
